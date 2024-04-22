@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color:#fff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(https://assetsio.reedpopcdn.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp);
+    background-size: cover;
+    background-position:center;
+    padding: 4px 2%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.logo {
+    height: 90px;
+    cursor: pointer;
+    opacity: 0.7;
+    
+}
+
+nav .button {
+    border: none;
+    outline: none;
+    background: #db0001;
+    color: #fff;
+    padding: 9px 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+nav button:hover {
+    background: #db002f;
+}
+
+.header-content {
+    position:absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.header-content h1 {
+    width: 600px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    line-height: 90px;
+    color: #fff;
+
+}
+
+.header-content h2 {
+    font-size: 18px;
+    padding: 15px 0px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.header-content p {
+    font-size: 15px;
+    color:#808080;
+    padding: 4px 0;
+}
+
+.header-content input {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 20px 10px;
+    border-radius: 4px;
+    background: transparent;
+    border: 2px solid #3c3c3c;
+    color: #fff;
+}
+
+.header-content button {
+    background: #db0001;
+    color: #fff;
+    padding: 20px 28px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.header-content button:hover {
+    background: #db002f;
+}
+
+.trending {
+    width: 200px;
+    margin: 50px 0;
+    left: 10%;
+    position:absolute;
+}
+
+.trending h4 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.trending select {
+    margin: 15px;
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    color: #3c3c3c;
+    border: 1px solid #3c3c3c;
+}
+
+
+.img-container {
+    max-width: 1000px;
+    width: 95%;
+    margin: 150px 170px;
+}
+
+.image_list .slide{
+    display: grid;
+    font-size: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10,10fr);
+    gap: 18px;
+}
+
+.image_list .slide::-webkit-scrollbar {
+    display: none;
+}
+
+.image_list .slide .cascade {
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.cascade:hover {
+    transform: scale(1.1);
+}
+
+.reason-join {
+    max-width: 1200px;
+    width: 95%;
+    left: 50%;
+    margin: 10px 140px;
+}
+
+.reason-list h4 {
+    font-size: 17px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    
+}
+
+.reason-list .reason-slide {
+    display: grid;
+    font-size: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10,10fr);
+    gap: 14px; 
+}
+
+.reason-list .reason-slide::-webkit-scrollbar {
+    display: none;
+}
+
+.reason-list .reason-slide .list {
+    width: 265px;
+    height: 250px;
+    object-fit: cover;
+    cursor:text;
+    background: #040720;
+    border-radius: 20px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    position: relative;
+}
+
+.reason-list .reason-slide .list h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+}
+
+.reason-list .reason-slide .list p{
+    font-size: 14px;
+    color: #484848;
+    padding: 0px 20px;
+}
+
+.reason-list .reason-slide .list .icons{
+    width: 60px;
+    height: 50px;
+    bottom: 12px;
+    right: 12px;
+    position: absolute;
+    border-radius:5px;
+}
+
+
+/*--faq--*/
+
+.faq {
+    margin-top: 30px;
+    padding: 5% 8%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.faq h3 {
+    font-weight: 550;
+    font-size: 27px;
+}
+
+
+.accordion {
+    margin: 13px;
+    width: 100%;
+    max-width: 990px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion label {
+    display: flex;
+    text-align: center;
+    font-size: 29px;
+    padding: 24px 12px;
+    font-weight: 500px;
+    background: #303030;
+    border-bottom: 1px solid #000;
+    position: relative;
+    cursor: pointer;
+}
+.accordion label:hover {
+    background: #484848;
+}
+.accordion label::after {
+    content: '+';
+    font-size: 39px;
+    font-weight: 200;
+    right: 12px;
+    position: absolute;
+    padding-bottom: 2px;
+    transition: transform 0.5s;
+}
+
+.accordion input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background: #303030;
+    text-align: left;
+    padding: 0px 12px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.accordion input[type="radio"]:checked +label +.content {
+    max-height: 400px;
+    padding: 30px 20px;
+    font-size: 24px;
+}
+
+.accordion input[type="radio"]:checked +label::after {
+    transform: rotate(135deg);
+}
+
+.anotherEmail {
+    margin: 20px 8%;
+    width: 100%;
+    max-width: 990px;
+}
+
+.anotherEmail p {
+    padding-left: 14px;
+    padding-bottom: 5px;
+    color: #808080;
+    position: relative;
+}
+
+.anotherEmail input {
+    width: 100%;
+    max-width: 780px;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 0;
+    padding: 18px 14px;
+    background: transparent;
+    border-radius: 4px;
+    border: 2px solid #3c3c3c;
+    color: #fff;
+}
+.anotherEmail button {
+    max-width: 180px;
+    width: 100%;
+    padding: 18px 12px;
+    margin-top: 14px;
+    background: #db0001;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.anotherEmail button:hover {
+    background: #db0f2f;
+}
+
+.footer {
+    padding:50px 15% 10px;
+    color: #777;
+}
+
+.footer .headAnchor{
+    color: #777;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+/**/
