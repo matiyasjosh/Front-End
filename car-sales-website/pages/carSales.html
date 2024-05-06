@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Sales | Ip Project</title>
+    <link rel="stylesheet" href="../asset/carSales.css">
+                
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Glitch&family=Rubik+Maps&family=Shadows+Into+Light&family=Tektur&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&family=Salsa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Protest+Revolution&family=Single+Day&display=swap" rel="stylesheet">
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="../video/test.mp4" type="video/mp4">
+        </video>
+
+            <!-- the bar icon -->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class='bx bx-menu'></i>
+        </label>
+
+        <nav id="menu">
+            <label id="h2">TAMERS</label>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="./inventory.html">INVENTORY</a></li>
+                <li><a href="#feature">FEATURED CARS</a></li>
+                <li><a href="../pages/upload.html">UPLOAD</a></li>
+                <li><a href="./contactus.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1>What <span>Kind</span> Of Car</h1>
+            <h2>Refer To The List</h2>
+
+            <select name="make" id="make">
+                <option value="" disabled selected>Choose a brand</option>
+                <option value="1">BMW</option>
+                <option value="2">Mercedese</option>
+                <option value="3">Toyota</option>
+                <option value="4">Suzuki</option>
+                <option value="5">Volswagen</option>
+                <option value="6">Pegeyout</option>
+            </select>
+            <form id="make" action="">
+                <fieldset>
+                    <input type="text" id="search-part" class="search-part" placeholder="Model">    
+                </fieldset>
+            </form>
+            <button type="submit"><i class='bx bx-search'></i></button>
+        </div>
+    </div>
+    <br>
+    <h2 class="FEATURED" id="feature">Featured Cars</h2>
+
+    <div class="car-list">
+        <!--car contents per sub container-->
+        <div class="car-content">
+            <a href="detail.htm">
+                <img src="https://www.motortrend.com/uploads/2022/11/2023-Tesla-Model-X-3.jpg?fit=around%7C875:492">
+                <p><span class="yr-make">2023 Tesla X</span></p>
+                <label>11,800,000</label>
+                <hr>
+                <ul>
+                    <li class="year">2023</li>
+                    <li>0 KM</li>
+                    <li>Auto</li>
+                    <li>Electric</li>
+                    <li>Dual Motor AWD</li>
+                </ul>
+            </a>
+        </div>
+        
+        <div class="car-content">
+            <a href="detail_2.htm">
+                <img src="https://th.bing.com/th/id/R.bdc53f193c4876a40019126cbe555bb9?rik=lgFR%2fnWZhwhchQ&pid=ImgRaw&r=0">
+                <p><span class="yr-make">2023 Tesla X</span></p>
+                <label>15,000,000</label>
+                <hr>
+                <ul>
+                    <li class="year">2024</li>
+                    <li>10 KM</li>
+                    <li>Manual</li>
+                    <li>Gasoline</li>
+                    <li>Front Wheel Drive</li>
+                </ul>
+                
+            </a>
+        </div>
+
+        <div class="car-content">
+            <a href="detail_3.htm">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/2024-tesla-model-s-107-6572200e43fa1.jpg?crop=0.497xw:0.560xh;0.243xw,0.232xh&resize=768:*">
+                <p><span class="yr-make">2023 Tesla X</span></p>
+                <label>5,800,000</label>
+                <hr>
+                <ul>
+                    <li class="year">2022</li>
+                    <li>5000 KM</li>
+                    <li>Auto</li>
+                    <li>Diesel</li>
+                    <li>Rear Wheel Drive</li>
+                </ul>                
+            </a>
+        </div>
+        
+        <div class="car-content">
+            <a href="detail_4.htm">
+                <img src="https://th.bing.com/th/id/OIP.HQX0au8ev9HH1k2RwGq7uAHaEK?rs=1&pid=ImgDetMain">
+                <p><span class="yr-make">2023 Tesla X</span></p>
+                <label>18,000,000</label>
+                <hr>
+                <ul>
+                    <li class="year">2023</li>
+                    <li>0 KM</li>
+                    <li>Auto</li>
+                    <li>Hybrid</li>
+                    <li>All Wheel Drive</li>
+                </ul>
+                
+            </a>
+        </div>
+        
+        <div class="car-content">
+            <img src="https://wallup.net/wp-content/uploads/2016/03/12/343922-car-Chevrolet_Camaro-Chevrolet-748x468.jpg">
+            <p><span class="yr-make">2023 Tesla X</span></p>
+            <label>8,000,000</label>
+            <hr>
+            <ul>
+                <li class="year">2025</li>
+                <li>100 KM</li>
+                <li>Manual</li>
+                <li>Electric</li>
+                <li>Four Wheel Drive</li>
+            </ul>
+        </div>
+        
+        <div class="car-content">
+            <img src="https://th.bing.com/th/id/OIP.dofiS1lbDbvM7eFL_9AMQAHaEE?w=316&h=180&c=7&r=0&o=5&pid=1.7">
+            <p><span class="yr-make">2023 Tesla X</span></p>
+            <label>2,800,000</label>
+            <hr>
+            <ul>
+                <li class="year">2021</li>
+                <li>20000 KM</li>
+                <li>Auto</li>
+                <li>Gasoline</li>
+                <li>Front Wheel Drive</li>
+            </ul>
+        </div>
+        
+        
+    </div>
+    
+    <footer>
+        <h1>Tamers</h1>
+        <div class="footerDetails">
+            <div class="address">
+                <ul>
+                    <li>Addis Ababa, Ethiopia</li>
+                    <li><i class='bx bxs-phone'></i> +251913892333</li>
+                    <li><i class='bx bxs-phone'></i>+251932556342 </li>
+                    <li><i class='bx bx-envelope' ></i>getYourCar@richdad.com</li>
+
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <label class="social-media" style="display: block; font-family: genos;">Social-media</label>
+                <a href="#"><i class='bx bxl-facebook bx-md'></i></a>
+                <a href="#"><i class='bx bxl-telegram bx-md'></i></a>
+                <a href="#"><i class='bx bxl-instagram bx-md' ></i></a>
+            </div>
+
+
+        </div>
+
+        <hr>
+        <label for="foot">Tamers | &copy; Copyright 2022 | Addis Ababa | All Rights Reserve | Website Developed by <span>Tamers</span></label>
+    </footer>
+
+</body>
+</html>

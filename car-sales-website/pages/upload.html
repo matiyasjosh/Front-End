@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Car Information</title>
+    <link rel="stylesheet" href="../asset/upload.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" sizes="32x32">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Glitch&family=Rubik+Maps&family=Shadows+Into+Light&family=Tektur&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&family=Salsa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Single+Day&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Protest+Revolution&family=Single+Day&display=swap" rel="stylesheet">
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<!-- the bar icon -->
+<input type="checkbox" id="check">
+<label for="check" class="checkbtn">
+    <i class='bx bx-menu'></i>
+</label>
+
+<body>
+    <nav>
+        <label id="h2">TAMERS</label>
+        <ul>
+            <li><a href="../pages/carSales.html">HOME</a></li>
+            <li><a href="../pages/inventory.html">INVENTORY</a></li>
+            <li><a href="../pages/carSales.html#feature">FEATURED CARS</a></li>
+            <li><a href="#">UPLOAD</a></li>
+            <li><a href="../pages/contactus.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <fieldset>
+        <h1 class="h1"><span class="head">Welcome</span> <span class="typed">To The Upload Page</span></h1>
+    </fieldset>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <div class="container">
+        <form id="forM">
+            <fieldset class="blue">
+                <label class="title">Car Info</label>
+                <label for="make" class="hidden">Make<input type="text" id="make"></label>
+                <label for="model" class="hidden">Model<input type="text" id="model"></label>
+                <label for="year" class="hidden">Year<input type="number" id="year"></label>
+                <label for="fuel" class="hidden">Fuel<input type="fuel" id="fuel"></label>
+                <label for="price" class="hidden">Price<input type="number" id="price"></label>
+                
+                <div class="imageChoice">
+                    <input type="file" accept="image/png, image/jpeg" id="pic" onchange="preview()" multiple>
+                    <label for="pic" class="pict"><i class='bx bx-upload'></i>&nbsp;Choose Images</label>
+                    <p id="num-of-files">No Files Chosen</p>
+                    <div id="images"></div>
+                </div>
+            </fieldset>
+            <fieldset class="pink">
+                <label class="title">User Info</label>
+                <label for="alias" class="hidden"><i class='bx bxs-user bx-md'></i><input type="text" id="alias" placeholder="Name"></label>
+                <label for="tg" class="hidden"><i class='bx bxl-telegram bx-md'></i><input type="text" id="tg" placeholder="Telegram username"></label>
+                <label for="phone" class="hidden"><i class='bx bxs-phone bx-md'></i><input type="tel" id="phone" placeholder="phone-number"></label>
+                <button type="submit">Submit</button><button type="reset">Cancel</button>
+            </fieldset>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <h1>Tamers</h1>
+        <div class="footerDetails">
+            <div class="address">
+                <ul>
+                    <li>Addis Ababa, Ethiopia</li>
+                    <li><i class='bx bxs-phone'></i> +251913892333</li>
+                    <li><i class='bx bxs-phone'></i>+251932556342 </li>
+                    <li><i class='bx bx-envelope' ></i>getYourCar@richdad.com</li>
+
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <label class="social-media" style="display: block; font-family: genos;">Social-media</label>
+                <a href="#"><i class='bx bxl-facebook bx-md'></i></a>
+                <a href="#"><i class='bx bxl-telegram bx-md'></i></a>
+                <a href="#"><i class='bx bxl-instagram bx-md' ></i></a>
+            </div>
+
+
+        </div>
+
+        <hr>
+        <label for="foot">Tamers | &copy; Copyright 2022 | Addis Ababa | All Rights Reserve | Website Developed by <span>Tamers</span></label>
+    </footer>
+
+    <script src="../scripts/upload.js"></script>
+    <script>
+        var types = new Typed(".typed", {
+            strings: ["Scroll Down And Fill The Form", "Fill All The Info"],
+            typeSpeed: 150, 
+            backSpeed: 150,
+            loop: true
+    })
+    </script>
+</body>
+</html>
