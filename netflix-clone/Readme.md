@@ -2,8 +2,8 @@
  In this folder I tried to show my HTML and CSS skill by cloning the landing page of Netflix website. And here is the result:
 
  ![netflix1](https://github.com/user-attachments/assets/3d476044-0344-479b-97ab-85bde9edc4fa)
- ![ntflix2](https://github.com/user-attachments/assets/4b375e5a-bf22-4a54-9155-5a1799c0e8a6)
- ![ntfilx3](https://github.com/user-attachments/assets/e4f7009d-05f7-464b-a151-df9a7be993be)
+ ![ntflix2](https://github.com/user-attachments/assets/f9a28d19-099d-4ced-84b3-a8f6a70b1ebe)
+ ![ntfilx3](https://github.com/user-attachments/assets/ad90a92d-b49d-47a4-903b-ee4af8adde2c)
  ![ntf4](https://github.com/user-attachments/assets/10260840-b8d9-4b85-b11c-1e6e46387e2b)
 
  - Here the lists are dropdowns that collapse one section at a time and when the other section is touched the previous one will shrink as follow
