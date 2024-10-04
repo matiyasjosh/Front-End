@@ -3,10 +3,10 @@
 
  ![netflix1](https://github.com/user-attachments/assets/3d476044-0344-479b-97ab-85bde9edc4fa)
  ![ntflix2](https://github.com/user-attachments/assets/4b375e5a-bf22-4a54-9155-5a1799c0e8a6)
- ![ntflix2](https://github.com/user-attachments/assets/d84b97fe-7644-4939-8f08-49adfff51852)
+ ![ntfilx3](https://github.com/user-attachments/assets/e4f7009d-05f7-464b-a151-df9a7be993be)
+ ![ntf4](https://github.com/user-attachments/assets/10260840-b8d9-4b85-b11c-1e6e46387e2b)
 
  - Here the lists are dropdowns that collapse one section at a time and when the other section is touched the previous one will shrink as follow
- ![ntf4](https://github.com/user-attachments/assets/10260840-b8d9-4b85-b11c-1e6e46387e2b)
  ![ntflix5](https://github.com/user-attachments/assets/4d50eb1c-5ee4-4c8f-a1ef-1d7f8a8b0ae9)
 
 # Conclusion
